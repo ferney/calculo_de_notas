@@ -37,6 +37,7 @@ public class principal extends javax.swing.JFrame {
              
             jTextArea1.setText(""+notas.darnotapromediocurso());           
             limpiar();
+         
  }
  void notaEst(){     
             int cod= Integer.parseInt(JOptionPane.showInputDialog("Digite el codigo del estudiante"));            
@@ -225,7 +226,8 @@ public class principal extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         try {
-            cargarEstudiante();            
+            cargarEstudiante();  
+           
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Datos de ingreso no valido", "error",JOptionPane.ERROR_MESSAGE); 
         }
@@ -331,4 +333,6 @@ public class principal extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
     // End of variables declaration//GEN-END:variables
+
+    
 }

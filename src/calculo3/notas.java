@@ -48,13 +48,15 @@ public class notas {
   
   //se recorre el arraylist, se suman las notas y se saca el promedio
     double darnotapromediocurso() {
+        suma=0;
         for (int i = 0; i < es.size(); i++) {
-            suma+=es.get(i).getNota();
-        }
+            suma+=es.get(i).getNota();            
+        }       
         return  promedio=suma/es.size();
-        suma==0;
-    }
+       
+         }
 
+    
     
     //se devuelve el estudiante que se requiere
     studiante darnotaestudiante(int cod) {
@@ -94,6 +96,8 @@ public class notas {
     void limpiar() {
         msj1=" ";
     }
+
+    
 
   
 }     
