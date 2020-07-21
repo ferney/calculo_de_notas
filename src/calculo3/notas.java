@@ -52,6 +52,7 @@ public class notas {
             suma+=es.get(i).getNota();
         }
         return  promedio=suma/es.size();
+        suma==0;
     }
 
     
